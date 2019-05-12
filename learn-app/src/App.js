@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Main from "./Component/Main";
+import Post from "./Component/Post";
 import PostForm from "./Component/PostForm";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <p>Post App</p>
         <PostForm />
       </header>
-      <Main />
+      <Post />
     </div>
   );
 }

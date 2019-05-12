@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Main extends Component {
+class Post extends Component {
   constructor(props) {
     super(props);
     this.state = { posts: [] };
@@ -26,4 +26,4 @@ class Main extends Component {
     );
   }
 }
-export default Main;
+export default Post;
