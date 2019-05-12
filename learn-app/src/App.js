@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
 import Main from "./Component/Main";
+import PostForm from "./Component/PostForm";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>This app for learning purposes</p>
-        <Main />
+        <p>Post App</p>
+        <PostForm />
       </header>
+      <Main />
     </div>
   );
 }
